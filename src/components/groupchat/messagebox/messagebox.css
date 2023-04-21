@@ -1,0 +1,202 @@
+.message-box-section {
+  position: relative;
+  height: auto;
+  width: 100%;
+}
+
+.message-box-header-section {
+  background-color: var(--backgroundWhite);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  height: 60px;
+  padding: 0% 5%;
+}
+
+.user-group-section {
+  display: flex;
+  justify-content: right;
+}
+
+.message-selection {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+  padding-right: 5%;
+  position: absolute;
+  top: 10vh;
+  height: auto;
+}
+
+.message-section-container {
+  position: relative;
+  background-color: var(--backgroundWhite);
+  word-wrap: break-word;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+}
+
+.message-section-name {
+  font-size: small;
+  color: var(--Grey);
+  margin-bottom: 5px;
+}
+
+.message-time {
+  position: absolute;
+  right: 5px;
+  bottom: 0;
+  font-size: small;
+  color: var(--Grey);
+}
+
+.message-time:hover {
+  cursor: pointer;
+}
+
+.message-align-right {
+  margin-left: auto;
+}
+
+.message-align-left {
+  margin-right: auto;
+}
+
+.send-message-section,
+.selection-wrapper {
+  position: absolute;
+  top: 90vh;
+  display: flex;
+  justify-content: center;
+}
+.send-message-section input {
+  height: 50px;
+  border-radius: 20px;
+  padding: 0px 20px;
+}
+
+.btn-submit-message {
+  margin-left: 10px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50% !important;
+}
+
+.selection-container {
+  background-color: var(--backgroundWhite);
+  height: 50px;
+  border-radius: 20px;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-selection {
+  display: flex;
+  align-items: center;
+  border-radius: 50% !important;
+  border: none !important;
+  background-color: var(--backgroundWhite);
+}
+
+.btn-selection:hover {
+  background-color: var(--selectPage);
+}
+
+.btn-delete-message.disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.sp-delete-selection {
+  color: var(--Red);
+}
+
+.ripple {
+  position: relative;
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 0px;
+  border-radius: 50%;
+}
+
+.ripple:hover {
+  background-color: var(--selectPage);
+}
+
+.ripple div {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: var(--Grey);
+}
+
+.ripple-dropdown {
+  position: absolute;
+  top: 100%;
+  width: 200px;
+  background-color: var(--backgroundWhite);
+  border: solid 1px var(--borderGray);
+  z-index: 2;
+}
+
+.ripple-dropdown div {
+  cursor: pointer;
+  text-align: center;
+}
+.ripple-dropdown div:hover {
+  background-color: var(--selectPage);
+}
+.btn-add-user {
+  color: var(--Green);
+}
+.btn-leave-group,.btn-delete-group {
+  color: var(--Red);
+}
+/* form add user in group css */
+
+.form-add-user-in-group {
+  background-color: var(--backgroundWhite);
+  position: absolute;
+  width: 400px;
+  height: 200px;
+  top: 300px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  z-index: 1;
+  border: solid 1px var(--borderGray);
+  border-radius: 5px;
+}
+
+.form-add-user-in-group-header {
+  display: flex;
+  align-items: center;
+  background-color: var(--Green);
+  padding: 5px 10px;
+}
+
+.form-add-user-in-group-content {
+  padding: 50px 10px;
+}
+
+.form-add-user-in-group-content input {
+  border: solid 1px var(--borderGray);
+  border-radius: 5px;
+  padding: 10px 10px;
+}
+
+.exit-form-add-user-in-group {
+  border-radius: 5px !important;
+}
+
+#msg {
+  color: var(--Red);
+  padding: 0px 10px;
+}

@@ -1,0 +1,6 @@
+.chatbox-section{
+    word-wrap: break-word;
+    height: 60px;
+    border-bottom: solid 1px var(--borderGray);
+    padding: 5px 10px;
+}

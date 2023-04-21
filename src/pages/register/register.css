@@ -1,0 +1,51 @@
+.register-section {
+  height: auto;
+  width: 480px;
+  padding: 40px 20px;
+  border-radius: 5px;
+  background-color: var(--backgroundWhite);
+}
+
+.register-section-title {
+  text-align: center;
+}
+
+.register-section-content {
+  margin: 20px 0px;
+}
+
+.form-register {
+  margin: 40px 0px;
+}
+
+.form-register > div {
+  margin: 10px 0px;
+}
+
+.form-register > div:last-child {
+  margin-top: 20px;
+  text-align: center;
+}
+
+input {
+  height: 20px;
+  border: none;
+}
+
+.form-register > div > input {
+  margin-top: 10px;
+  border-bottom: 1px solid gray;
+}
+
+.register-account {
+  text-align: center;
+}
+
+.btn-register {
+  margin-top: 10px;
+  padding: 10px 20px;
+}
+
+.msg-register{
+  color: var(--Red);
+}

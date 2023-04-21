@@ -1,0 +1,6 @@
+.home-section{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background: url("/public/images/wallpaper.jpg");
+}

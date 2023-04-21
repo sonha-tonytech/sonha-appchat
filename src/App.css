@@ -1,0 +1,79 @@
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col-des-1 {
+  width: 8.33333%;
+}
+.col-des-2 {
+  width: 16.66666%;
+}
+.col-des-3 {
+  width: 25%;
+}
+.col-des-4 {
+  width: 33.33333%;
+}
+.col-des-5 {
+  width: 41.66666%;
+}
+.col-des-6 {
+  width: 50%;
+}
+.col-des-7 {
+  width: 58.3333%;
+}
+.col-des-8 {
+  width: 66.66666%;
+}
+.col-des-9 {
+  width: 75%;
+}
+.col-des-10 {
+  width: 83.33333%;
+}
+.col-des-11 {
+  width: 91.66666%;
+}
+.col-des-12 {
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 2em !important;
+}
+
+form label {
+  font-weight: bold;
+}
+
+.btn {
+  border-radius: 15px;
+  font-weight: bold;
+  border: 1px solid var(--borderGray);
+  color: white;
+  text-align: center;
+}
+
+.btn:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.btn-green {
+  background-color: var(--btnGreen);
+}
+
+.btn-red {
+  background-color: var(--btnRed);
+}

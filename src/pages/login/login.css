@@ -1,0 +1,51 @@
+.login-section{
+  height: auto;
+  width: 480px;
+  padding: 40px 20px;
+  border-radius: 5px;
+  background-color: var(--backgroundWhite);
+}
+
+.login-section-title {
+  text-align: center;
+}
+
+.login-section-content{
+  margin: 20px 0px;
+}
+
+.form-login{
+  margin: 40px 0px;
+}
+
+.form-login > div {
+  margin: 10px 0px;
+}
+
+.form-login > div:last-child{
+  margin-top: 20px;
+  text-align: center;
+}
+
+input {
+  height: 20px;
+  border: none;
+}
+
+.form-login > div > input{
+  margin-top: 10px;
+  border-bottom: 1px solid gray;
+}
+
+.login-account {
+  text-align: center;
+}
+
+.btn-login{
+  margin-top: 10px;
+  padding: 10px 20px;
+}
+
+.msg-login{
+  color: var(--Red);
+}
